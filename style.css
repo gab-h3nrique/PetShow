@@ -1,0 +1,193 @@
+::-webkit-scrollbar{
+    background: #e8f2ff;
+    width: 0px;
+}
+
+body {
+    background: #f4f4f4;
+    font-weight: lighter;
+    height: 99vh;
+    width: 100vw;
+    margin: 0;
+    border-top: 3px solid #00a1ff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.borda {
+    border-radius: 60px;
+    display: flex;
+    width: 400px;
+    height: 800px;
+    background-color: rgb(31, 30, 30);
+    justify-content: center;
+    align-items: center;
+    background: #292b31;
+-webkit-box-shadow: 19px 19px 27px #6b6e78, -19px -19px 27px #ffffff;
+box-shadow: 19px 19px 27px #6b6e78, -19px -19px 27px #ffffff;
+    
+}
+.borda-interna {
+    background-color: white;
+    width: 92%;
+    height: 96%;
+    border-radius: 40px;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.notification {
+    background-color: rgb(102, 105, 109);
+    width: 100%;
+    height: 4.5%;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
+
+.voltar {
+    cursor: pointer;
+    background-color: rgb(102, 105, 109);
+    width: 100%;
+    height: 4.5%;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.display {
+    background-color: rgb(190, 208, 233);
+    width: 100%;
+    height: 91.1%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.content {
+    display: flex;
+    background-color: rgb(190, 208, 233);
+}
+.card {
+    width: 100%;
+    height: 900px;
+    flex-direction: row;
+}
+.lojas {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    flex-direction: row;
+    cursor: pointer;
+    box-shadow:  20px 20px 49px #9cabbf,
+    -20px -20px 49px #e0f5ff;
+}
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.icone {
+    width: 40%;
+    height: 87%;
+    border-radius: 10px;
+    background-color: #666666;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+    flex-direction: row;
+}
+.inf {
+    margin-left: 6px;
+}
+.local{
+    width: 18px;
+    height: 18px;
+    background-image: url('./locacao.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.distancia {
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+p {
+    display: flex;
+    margin-block-start: 0em;
+    font-weight: bold;
+    font-size: 1em;
+}
+.avaliacao {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+/* --------------------PRODUTOS------------------- */
+
+.cardProduto {
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.produtos {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.itens {
+    cursor: pointer;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    flex-direction: row;
+    box-shadow:  8px 8px 16px #9aa8bd,
+             -8px -8px 16px #e2f8ff;
+}
+.imagem-item {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #666666;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.desc-item {
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.titulo-item {
+    margin-top: 4px;
+    margin-bottom: 4px
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

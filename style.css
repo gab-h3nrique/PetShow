@@ -29,6 +29,9 @@ main {
     background-color: rgb(31, 30, 30);
     justify-content: center;
     align-items: center;
+    background: #292b31;
+-webkit-box-shadow: 19px 19px 27px #6b6e78, -19px -19px 27px #ffffff;
+box-shadow: 19px 19px 27px #6b6e78, -19px -19px 27px #ffffff;
     
 }
 .borda-interna {
@@ -80,6 +83,8 @@ main {
     height: 120px;
     flex-direction: row;
     cursor: pointer;
+    box-shadow:  20px 20px 49px #9cabbf,
+    -20px -20px 49px #e0f5ff;
 }
 .header {
     width: 100%;
@@ -139,10 +144,11 @@ p {
 .produtos {
     height: 100%;
     width: 100%;
-    background-color: rgb(190, 208, 233);
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .itens {
     cursor: pointer;
@@ -151,6 +157,8 @@ p {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     flex-direction: row;
+    box-shadow:  8px 8px 16px #9aa8bd,
+             -8px -8px 16px #e2f8ff;
 }
 .imagem-item {
     width: 100%;
